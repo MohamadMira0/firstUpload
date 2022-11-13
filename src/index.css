@@ -1,0 +1,22 @@
+.container{
+  width: 95%;
+  margin: 0  auto;
+}
+p , h3{
+  margin: 0;
+  padding: 0;
+  
+}
+h3{
+  /* direction: rtl; */
+  width: calc(300px - 65px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 668px) {
+  .parent{
+    margin: 20px auto;
+  }
+}
